@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --bg-color: #14110f;
+    --color-gold: #c58d4a;
+    --color-muted: #9ca3af;
+    --color-border: #2a2421;
+    --color-surface: #1c1815;
+    --color-surface-raised: #25201c;
+    --shadow-coffee: rgba(197, 141, 74, 0.15);
+
+    --font-sans: 'Space Grotesk', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+    background-color: var(--bg-color);
+    color:white;
+    font-family: var(--font-sans);
+}
+
+code, pre, .mono {
+    font-family: var(--font-mono);
+}
