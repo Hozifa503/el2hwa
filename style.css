@@ -5,11 +5,11 @@
 }
 
 :root {
-    --bg-color: #14110f;
+    --bg-color: #16100d;
     --color-gold: #c58d4a;
-    --color-muted: #9ca3af;
+    --color-muted: #F6F4ED;
     --color-border: #2a2421;
-    --color-surface: #1c1815;
+    --color-surface: #13100e;
     --color-surface-raised: #25201c;
     --shadow-coffee: rgba(197, 141, 74, 0.15);
 
@@ -25,4 +25,45 @@ body {
 
 code, pre, .mono {
     font-family: var(--font-mono);
+}
+
+header {
+    position: fixed;
+    background-color: var(--color-surface);
+    border-bottom: 1px solid var(--color-gold);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    height: 70px
+}
+
+header .navbar .logo {
+    width:280px
+}
+
+header .navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+header .navbar ul li a {
+    color: var(--color-muted);
+    font-size: 18px;
+    margin: 0 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+
+}
+header .navbar ul li a:hover {
+    color: var(--color-gold)
 }
