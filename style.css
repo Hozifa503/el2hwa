@@ -254,3 +254,41 @@ header .navbar ul li a:hover {
     text-align: center;
     padding: 25px 25px 30px;
 }
+
+#about {
+    background-color: var(--color-gold);
+    padding: 6rem 0;   
+}
+
+#about .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+
+#about .container .row .about-content h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: var(--color-surface-raised);
+    padding-bottom: 10px;
+}
+
+#about .container .row .about-content span{
+    color: var(--color-muted);
+    padding: 10px;
+}
+
+#about .container .row .about-content p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: cornsilk;
+}
+
+#about .container .row .about-content .item h3 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--color-surface-raised);
+}
