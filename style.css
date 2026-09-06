@@ -132,3 +132,72 @@ header .navbar ul li a:hover {
 #home .home-content .content-text .btn i {
     margin-left: 4px;
 }
+
+#menu {
+    background-color: var(--color-gold);
+    padding: 6rem;
+}
+
+.heading {
+    text-align: center;
+}
+
+#menu .container .heading span {
+    color: rgb(228, 228, 152);
+    font-size: 30px;
+}
+
+#menu .container .heading h2 {
+    color: wheat;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#menu .container .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+    gap: 5rem;
+}
+
+#menu .container .row .col .item {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    border: 1px solid rgb(228, 228, 152);
+    padding: 25px 20px;
+    border-radius: 8px;
+}
+
+#menu .container .row .col .item img {
+    width: 80px;
+}
+
+#menu .container .row .col .item .details {
+    margin-left: 20px;
+}
+
+#menu .container .row .col .item .details h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: lemonchiffon;
+}
+
+#menu .container .row .col .item .details p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#menu .container .row .col .item .price {
+    border-left: 1px solid white;
+    padding: 20px;
+    margin: auto;
+    color: wheat;
+}
+
+#menu .row .col .item .price p {
+    font-size: 16px;
+    font-weight: 600;
+
+}
