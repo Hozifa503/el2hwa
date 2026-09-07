@@ -295,6 +295,7 @@ header .navbar ul li a:hover {
 
 #contact {
     background-color: var(--bg-color);
+    padding-bottom: 2rem;
 }
 
 #contact .container .heading {
@@ -321,6 +322,7 @@ header .navbar ul li a:hover {
     display: grid;
     grid-template-columns: 2fr 1.4fr;
     margin: 2rem;
+    margin-bottom: 0;
 }
 
 #contact .row .contact-content {
@@ -376,7 +378,7 @@ header .navbar ul li a:hover {
 #footer {
     background: var(--color-surface);
     color: var(--color-muted);
-    border-top: 1px solid var(--color-gold);
+    border-top: 2px solid var(--color-gold);
     padding-top: 4rem;
 }
 
