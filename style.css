@@ -348,3 +348,8 @@ header .navbar ul li a:hover {
 #contact .row .contact-content form .btn-submit:hover {
     background-color: var(--color-gold);
 }
+
+#contact .map iframe {
+    width: 98%;
+    height: 100%;
+}
