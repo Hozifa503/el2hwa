@@ -18,7 +18,7 @@
 }
 
 body {
-    color:white;
+    color: var(--bg-color);
     font-family: var(--font-sans);
 }
 
@@ -297,6 +297,25 @@ header .navbar ul li a:hover {
     background-color: var(--bg-color);
 }
 
+#contact .container .heading {
+    align-items: center;
+    padding: 3rem 0;
+}
+
+#contact .container .heading span {
+    color: var(--color-gold);
+   font-size: 35px;
+   text-transform: uppercase;
+   font-weight: 600; 
+}
+
+#contact .container .heading h2 {
+    color: var(--color-muted);
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: 500;
+}
 
 #contact .row {
     display: grid;
@@ -346,7 +365,7 @@ header .navbar ul li a:hover {
 }
 
 #contact .row .contact-content form .btn-submit:hover {
-    background-color: var(--color-gold);
+    background-color: burlywood;
 }
 
 #contact .map iframe {
