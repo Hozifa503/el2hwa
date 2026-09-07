@@ -292,3 +292,59 @@ header .navbar ul li a:hover {
     text-transform: uppercase;
     color: var(--color-surface-raised);
 }
+
+#contact {
+    background-color: var(--bg-color);
+}
+
+
+#contact .row {
+    display: grid;
+    grid-template-columns: 2fr 1.4fr;
+    margin: 2rem;
+}
+
+#contact .row .contact-content {
+    background-color: var(--color-surface-raised);
+    padding: 2.5rem;
+}
+
+#contact .row .contact-content h3 {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#contact .row .contact-content form input {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+    border: 2px solid wheat;
+
+}
+
+#contact .row .contact-content form textarea {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+    border: 2px solid wheat;
+}
+
+#contact .row .contact-content form .btn-submit {
+    background-color: wheat;
+    width: 100%;
+    color: var(--color-surface-raised);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+#contact .row .contact-content form .btn-submit:hover {
+    background-color: var(--color-gold);
+}
