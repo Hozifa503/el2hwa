@@ -374,6 +374,7 @@ header .navbar ul li a:hover {
 #contact .map iframe {
     width: 98%;
     height: 100%;
+    border-radius: 5px;
 }
 
 #footer {
